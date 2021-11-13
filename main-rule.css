@@ -1,0 +1,36 @@
+@font-face{
+    font-family: mainJSIMS;
+    src: url("InsanibuJSIMS.ttf")
+}
+
+body{
+    background-color: rgb(246, 251, 255);
+}
+
+[projectfilesJSIMS]{
+    display: grid;
+    width: 100%;
+    grid-template-columns: auto auto auto auto;
+    background-color: rgb(220, 255, 255);
+    padding: 0.3vw;
+    grid-gap: 0.3vw;
+}
+
+[projectfilesJSIMS] div {
+    background-color: rgb(215, 235, 255);
+}
+
+[projectfilesJSIMS] div div {
+    background-color: darkturquoise;
+    height: 18.3vw;
+    width: 100%;
+    text-align: center;
+}
+
+a {
+    font-family: mainJSIMS;
+}
+
+span {
+    font-family: mainJSIMS;
+}
